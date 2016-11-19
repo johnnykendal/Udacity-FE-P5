@@ -1,0 +1,26 @@
+{
+  "name": "neighborhood-map",
+  "authors": [
+    "JohnnyKendal <johnnykendal@yahoo.com>"
+  ],
+  "description": "an interactive map",
+  "main": "/Users/johnnykendal/Desktop/Front-End\\ Web/P5/neighborhood-map/index.html",
+  "keywords": [
+    "map",
+    "google"
+  ],
+  "license": "MIT",
+  "homepage": "/Users/johnnykendal/Desktop/Front-End\\ Web/P5/neighborhood-map/index.html",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "^3.3.6",
+    "knockout": "^3.4.0",
+    "jquery": "^2.2.4"
+  }
+}

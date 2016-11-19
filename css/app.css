@@ -1,0 +1,173 @@
+@charset "UTF-8";
+/* CSS Document */
+
+/* common elements */
+
+html, body, .wrapper{
+	height: 100%;
+    margin: 0;
+    width: 100%;
+}
+/* map canvas */
+#map {
+  height: calc(100% - 50px);
+  top: 50px;
+}
+
+#infoWindow {
+	width: 300px;
+}
+
+/* side bar */
+header, aside {
+  color: white;
+  margin: 0;
+  padding: 8px;
+  position: absolute;
+}
+
+header {
+  background: #005cad;
+  height: 50px;
+  top: 0;
+  width: 100%;
+}
+header h1 {
+  color: #FFFFFF;
+  font-size: 24px;
+  margin: 0;
+  text-align: center;
+}
+
+/* search */
+#search {
+	position:absolute;
+	margin-top: -25px;
+    width: 130px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+	color: black;
+    background-repeat: no-repeat;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+	z-index:2;
+}
+
+#search:focus {
+    width: 30%;
+}
+
+/* list */
+aside {
+  background: rgba(0,0,0,0.75);
+  height: calc(100% - 50px);
+  width: 300px;
+  overflow: auto;
+  top: 50px;
+  right: 0;
+}
+
+#list {
+  padding: 0;
+}
+
+#list li {
+  font-size: 16px;
+  list-style-type: none;
+  padding: 8px;
+}
+
+#list li:hover {
+  cursor: pointer;
+  color: black;
+  background: #005cad;
+}
+.club-name {
+  display: inline-block;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  width: 75%;
+}
+
+.club-info {
+  float: right;
+  text-align: right;
+  width: 25%;
+}
+
+@media only screen and (max-width: 700px) {
+
+aside {
+only screen and (max-width: 400px){
+	
+side {
+  top: 50px;
+  right: 0;
+idth: 200px;
+  overflow: auto  width: 300px;
+}
+}
+@media only screen and (max-width: 400px){
+	
+.wrapper {
+    position: absolute;
+    left: 0;
+    height: calc(60% + 80px);
+    bottom: 0;
+}
+  
+#map {
+	height: calc(100% - 80px);
+	top: 80px;
+}
+  
+.mobile-container {
+    position: fixed;
+    height: 40%;
+    width: 100%;
+    overflow: hidden;
+    top: 0;
+    left: 0;
+}
+  
+header {
+    position: static;
+	height: 80px;
+    left: 0;
+    top: 0;
+    width: 100%;
+}
+  
+form {
+    display: block;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+	width: 70%;
+}
+ 
+#search {
+	position: static;
+	margin-top: 10px;
+	width: 100%;
+	align: center;
+	margin-left: auto;
+	margin-right: auto;
+ }
+ 
+#search:focus{
+	 width: 100%;
+}
+ 
+aside {
+    height: calc(100% - 50px);
+    position: static;
+    left: 0;
+    top: 80 px;
+    width: 100%;
+}
+}
+
